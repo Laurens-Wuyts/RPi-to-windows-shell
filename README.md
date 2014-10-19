@@ -10,9 +10,11 @@ Server.py
   - Later you can run it using command prompt "pythonw server.py". Now the script will run in background
   
 
-client.py + index.php
+client.py + index.php + .htaccess
   - On RPi in the /var/www/ folder
   - Browse to the website of your pi and try it out!
+
+The .htaccess file is important for enabeling CGI and to protect your webpage because from this page anyone can access your computer without the .htaccess file.
 
 
 <b>! For these files to work you'll need some libraries !</b>
