@@ -16,5 +16,4 @@ client.py + index.php
 
 
 <b>! For these files to work you'll need some libraries !</b>
-The most libraries are included in python but Pygoogle is not so be shure you download it first.
-
+The most libraries are included in python but Pygoogle is not so be sure you download it first.
