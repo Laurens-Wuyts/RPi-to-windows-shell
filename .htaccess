@@ -1,0 +1,7 @@
+AuthType Basic
+AuthName "Controlling my PC"
+AuthUserFile /var/www/.htpasswd
+Require valid-user
+
+Options +ExecCGI
+AddHandler cgi-script .py
