@@ -21,6 +21,7 @@ In the .htpasswd file are the usernames and passwords saved. The username and pa
 
 To make a passwd use http://www.htaccesstools.com/htpasswd-generator/
 
+
 <b>! For these files to work you'll need some libraries !</b>
 The most libraries are included in python but Pygoogle is not so be sure you download it first.
 
