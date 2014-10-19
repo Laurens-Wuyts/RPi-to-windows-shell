@@ -15,6 +15,6 @@ client.py + index.php
   - Browse to the website of your pi and try it out!
 
 
-! For these files to work you'll need some libraries !
-  The most libraries are included in python bet Pygoogle not so be shure you download it first.
+<b>! For these files to work you'll need some libraries !</b>
+The most libraries are included in python but Pygoogle is not so be shure you download it first.
 
