@@ -11,22 +11,10 @@ print('Content-Type: text/html; charset=utf-8\n')
 
 print """
 <head>
-	<title>Control my PC</title>				
-	<link rel="shortcut icon" href="../images/home.ico" type="image/x-icon" />
-	<link rel="stylesheet" type="text/css" href="../style.css">
-	<script src="jquery-1.11.1.js"></script>	
-	<script> 
-		$(function(){
-			$("#header").load("../header.html"); 
-			$("#footer").load("../footer.html"); 
-		});
-	</script>
+	<title>Control my PC</title>
 </head>
-<body onLoad="document.forms.form.submit.focus()">
-<div id="wrapper">
-		<div id="header"></div>
-		<div id="content">	
-			<center>"""
+<body>
+	<center>"""
 
 form=cgi.FieldStorage()
 
@@ -75,17 +63,15 @@ s.send(send)
 s.close()
 
 print """
-			<form name="form" action="client.py" method="POST" autocomplete="off">
+	<form name="form" action="client.py" method="POST" autocomplete="off">
 
-				<h1>Text to send:</h1><br>
-				<input type="text" name="post" >
-				<input type="submit" value="Send" name="submit1">
-				<input type="submit" value="YouTube" name="youtube"> <br><br>
-				<input type="submit" value="   MNM   " name="MNM"> 
-				<input type="submit" value="MNM-hits" name="MNM-hits"> 
+		<h1>Text to send:</h1><br>
+		<input type="text" name="post" >
+		<input type="submit" value="Send" name="submit1">
+		<input type="submit" value="YouTube" name="youtube"> <br><br>
+		<input type="submit" value="   MNM   " name="MNM"> 
+		<input type="submit" value="MNM-hits" name="MNM-hits"> 
 
-			</form>
-		</div>
-	</div>
-	<div id="footer"></div>
+	</form>
+
 </body>"""
